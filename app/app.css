@@ -1,0 +1,120 @@
+@import '~@nativescript/theme/css/core.css';
+@import '~@nativescript/theme/css/default.css';
+
+* {
+    font-size: 20;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.action-bar {
+    display: none;
+}
+
+.page {}
+
+.container {
+    padding-left: 15;
+    padding-right: 15;
+    flex-grow: 1;
+    justify-content: center;
+    /* background: #1e2234; */
+    background-image: url("~/assets/images/background.jpg");
+    background-size: cover;
+}
+
+.line {
+    justify-content: center;
+}
+
+.line.space {
+    margin: 15px 0;
+}
+
+.my-input {
+    flex-grow: 1;
+    color: #ffffff;
+    font-size: 16;
+}
+
+.my-button {
+    background-color: rgba(100, 72, 161, 0.705);
+    border-radius: 26px;
+    padding: 0 25px;
+    line-height: 0;
+    height: 25px;
+    font-size: 16;
+    color: #ffffff;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+    padding: 25;
+    margin: 15;
+    text-align: center;
+    border-radius: 26px;
+    background-color: rgba(100, 72, 161, 0.705);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+}
+
+#minima {
+    background-image: url("~/assets/images/minima.png");
+}
+
+#maxima {
+    background-image: url("~/assets/images/maxima.png");
+}
+
+#sensacao {
+    background-image: url("~/assets/images/vento.png");
+}
+
+#umidade {
+    background-image: url("~/assets/images/umidade.png");
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.cidade {
+    font-size: 30;
+    font-weight: bold;
+}
+
+.temperatura {
+    font-size: 75;
+    font-weight: bold;
+}
+
+.condicaoBold {
+    font-weight: bold;
+}
+
+.condicaoText {}
+
+.boxValor {
+    font-size: 38;
+    font-weight: bold;
+}
+
+.boxLabel {
+    font-weight: lighter;
+    font-size: 16;
+}
+
+.assinatura {
+    justify-content: center;
+    margin: 85px 0;
+}
+
+.assText,
+.assBold {
+    color: #b7c2ff;
+    font-size: 13;
+}
