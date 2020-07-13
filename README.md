@@ -1,4 +1,8 @@
-![last commit badge](https://badgen.net/github/last-commit/fddaineze/weather-app) ![license badge](https://badgen.net/github/license/fddaineze/weather-app) ![commits badge](https://badgen.net/github/commits/fddaineze/weather-app) ![github badge](https://badgen.net/badge/icon/github?icon=github&label)
+![GitHub top language](https://img.shields.io/github/languages/top/fddaineze/weather-app)
+![last commit badge](https://badgen.net/github/last-commit/fddaineze/weather-app)
+![license badge](https://badgen.net/github/license/fddaineze/weather-app)
+![commits badge](https://badgen.net/github/commits/fddaineze/weather-app)
+![github badge](https://badgen.net/badge/icon/github?icon=github&label)
 # Weather App - Nativescript
 Aplicativo de consulta de clima com consulta a API OpenWeather, criado para teste de desenvonvimento no NativeScript
 
